@@ -1,0 +1,61 @@
+.conceptos-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #f5f5f5;
+    margin-bottom: 50px;
+  }
+  
+  .conceptos-section h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .concepto {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .concepto h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .concepto p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+
+  .concepto img {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }
+  
+  .concepto a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  .concepto a:hover {
+    color: #23527c;
+  }
+  
+  @media (max-width: 768px) {
+   .conceptos-section {
+      padding: 20px;
+    }
+   .concepto {
+      margin-bottom: 20px;
+      padding: 10px;
+    }
+  }

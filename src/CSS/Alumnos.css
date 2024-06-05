@@ -1,0 +1,45 @@
+.alumnos-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #f5f5f5;
+    margin-top: 50px;
+  }
+  
+  .alumnos-section h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .alumnos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 -20px;
+  }
+  
+  .alumnos-container > * {
+    margin: 20px;
+  }
+  
+  .alumnos-container > *:nth-child(3n+1) {
+    margin-left: 0;
+  }
+  
+  .alumnos-container > *:nth-child(3n) {
+    margin-right: 0;
+  }
+  
+  @media (max-width: 768px) {
+   .alumnos-container {
+      flex-direction: column;
+    }
+   .alumnos-container > * {
+      margin: 20px 0;
+    }
+  }
